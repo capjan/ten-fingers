@@ -9,6 +9,17 @@ Official public home for Ten Fingers, its German and English websites, and commu
 - [Deutsch](https://www.tenfingers.app/)
 - [English](https://en.tenfingers.app/)
 
+## Website projects
+
+The German and English sites are maintained as separate MDU roots in `de/` and `en/`. Each has its own navigation, site name, and assets so it can be rendered and deployed to its own domain.
+
+```sh
+mdu render ./de ./build/de
+mdu render ./en ./build/en
+```
+
+The privacy pages currently mirror the live WordPress content. Review them for the new host and MDU's browser-stored display preferences before switching the live domains.
+
 ## About
 
 Ten Fingers is a native macOS app for learning and practicing touch typing with guided lessons and progress statistics.
