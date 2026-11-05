@@ -37,3 +37,75 @@ jobs:
           path: build/
           if-no-files-found: error
           retention-days: 7
+
+  deploy:
+    name: Deploy production
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-24.04
+    environment:
+      name: production
+      url: https://www.tenfingers.app/
+    permissions:
+      actions: read
+      deployments: write
+
+    steps:
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: websites-${{ github.sha }}
+          path: build/
+
+      - name: Configure SSH
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_KNOWN_HOSTS: ${{ vars.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          set -eu
+          mkdir -p "$RUNNER_TEMP/tenfingers-ssh"
+          chmod 700 "$RUNNER_TEMP/tenfingers-ssh"
+          printf '%s\n' "$DEPLOY_SSH_KEY" > "$RUNNER_TEMP/tenfingers-ssh/id_ed25519"
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > "$RUNNER_TEMP/tenfingers-ssh/known_hosts"
+          chmod 600 "$RUNNER_TEMP/tenfingers-ssh/id_ed25519" "$RUNNER_TEMP/tenfingers-ssh/known_hosts"
+
+      - name: Upload and activate release
+        env:
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
+          DEPLOY_PORT: ${{ vars.DEPLOY_PORT }}
+          DEPLOY_USER: ${{ vars.DEPLOY_USER }}
+        shell: bash
+        run: |
+          set -eu
+          ssh_options=(-i "$RUNNER_TEMP/tenfingers-ssh/id_ed25519" -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile="$RUNNER_TEMP/tenfingers-ssh/known_hosts")
+          tar -czf "$RUNNER_TEMP/ten-fingers-site.tar.gz" -C build .
+          scp -P "$DEPLOY_PORT" "${ssh_options[@]}" "$RUNNER_TEMP/ten-fingers-site.tar.gz" "$DEPLOY_USER@$DEPLOY_HOST:/srv/ten-fingers/incoming/$GITHUB_SHA.tar.gz"
+          ssh -p "$DEPLOY_PORT" "${ssh_options[@]}" "$DEPLOY_USER@$DEPLOY_HOST" "sh -s -- '$GITHUB_SHA'" <<'REMOTE'
+          set -eu
+          sha="$1"
+          case "$sha" in (*[!0-9a-f]*|'') echo 'Invalid release ID' >&2; exit 1;; esac
+          [ "${#sha}" -eq 40 ] || { echo 'Invalid release ID' >&2; exit 1; }
+
+          base=/srv/ten-fingers
+          archive="$base/incoming/$sha.tar.gz"
+          release="$base/releases/$sha"
+          trap 'rm -f "$archive"' EXIT
+          rm -rf "$release"
+          mkdir -m 0755 "$release"
+          tar -xzf "$archive" -C "$release"
+          test -s "$release/de/index.html"
+          test -s "$release/en/index.html"
+
+          ln -s "releases/$sha" "$base/current.next"
+          mv -Tf "$base/current.next" "$base/current"
+          rm -f "$archive"
+
+          find "$base/releases" -mindepth 1 -maxdepth 1 -type d -printf '%T@ %f\n' \
+            | sort -nr | awk 'NR > 5 { print $2 }' \
+            | while IFS= read -r old; do
+                case "$old" in (*[!0-9a-f]*|'') continue;; esac
+                [ "${#old}" -eq 40 ] || continue
+                [ "$old" = "$sha" ] || rm -rf "$base/releases/$old"
+              done
+
+          echo "Activated release $sha"
+          REMOTE

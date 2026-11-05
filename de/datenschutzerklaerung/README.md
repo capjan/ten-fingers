@@ -12,19 +12,21 @@ navigation:
 
 Mein Name ist Jan Ruhländer und die Adresse dieser Website ist https://www.tenfingers.app.
 
-## Cookies
+## Browser-Speicher und Cookies
 
-Ich setze keine Cookies bei den Besuchern unserer Webseite.
+Diese Website setzt keine Cookies. MDU speichert Anzeige- und Navigationsoptionen wie das Farbschema, die Breite der Navigationsbereiche und den Ein-/Ausklappzustand im lokalen Browserspeicher (`localStorage`). Vorübergehende Zustände geöffneter Menüs speichert der Browser für die aktuelle Sitzung (`sessionStorage`). Diese Werte werden nicht an mich übertragen und können über die Website-Daten deines Browsers gelöscht werden.
 
-## Eingebettete Inhalte von anderen Websites
+## Technische Verarbeitung
 
-Beiträge auf dieser Website können eingebettete Inhalte beinhalten (z. B. Videos, Bilder, Beiträge etc.). Eingebettete Inhalte von anderen Websites verhalten sich exakt so, als ob der Besucher die andere Website besucht hätte.
+Beim Aufruf verarbeitet der Server die IP-Adresse und die angeforderte Adresse, um die Seite auszuliefern. Die Website verwendet keine Benutzerkonten, Kontaktformulare, Analyse- oder Tracking-Dienste. Routinezugriffe werden nicht als Zugriffsprotokoll gespeichert.
 
-Diese Websites können Daten über dich sammeln, Cookies benutzen, zusätzliche Tracking-Dienste von Dritten einbetten und deine Interaktion mit diesem eingebetteten Inhalt aufzeichnen, inklusive deiner Interaktion mit dem eingebetteten Inhalt, falls du ein Konto hast und auf dieser Website angemeldet bist.
+## Links zu anderen Websites
 
-## Mit wem ich deine Daten teilen und wie lange ich sie speichere
+Diese Website enthält Links zu anderen Websites. Erst wenn du einem solchen Link folgst, wird eine Verbindung zur jeweiligen Website hergestellt. Dort gelten die Datenschutzinformationen des jeweiligen Anbieters.
 
-Ich erfasse keine personenbezogenen Daten. Deshalb gibt es nichts zum weitergegeben oder speichern.
+## Weitergabe und Speicherung
+
+Die Website sendet die im Browser gespeicherten Anzeige- und Navigationsoptionen nicht an mich. Ich erstelle keine Nutzerprofile und verwende keine Analyse- oder Tracking-Dienste.
 
 ## Kontakt
 
@@ -32,4 +34,4 @@ Wenn Sie Fragen oder Bedenken bezüglich meiner Datenschutzpraktiken haben, erre
 
 ## Änderungen an dieser Datenschutzerklärung
 
-Diese Datenschutzerklärung kann gelegentlich aktualisiert werden, um Änderungen unserer Datenschutzpraktiken widerzuspiegeln. Die aktuelle Version finden sie unter www.tenfingers.app/datenschutz-web
+Diese Datenschutzerklärung kann gelegentlich aktualisiert werden, um Änderungen der Website widerzuspiegeln. Die aktuelle Version findest du unter https://www.tenfingers.app/datenschutzerklaerung.

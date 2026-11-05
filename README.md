@@ -19,7 +19,9 @@ dotnet mdu render ./de ./build/de
 dotnet mdu render ./en ./build/en
 ```
 
-The privacy pages currently mirror the live WordPress content. Review them for the new host and MDU's browser-stored display preferences before switching the live domains.
+Pull requests render both sites for review. A push to `main` also deploys the build through the GitHub Actions `production` environment. The workflow uploads a release over SSH with a dedicated account that has no Docker or `sudo` access, then atomically switches the active release. The server configuration is in `deploy/`; Nginx serves the two roots read-only behind Traefik.
+
+The website privacy pages describe MDU's browser-local display and navigation preferences. They do not set cookies, and the site does not embed third-party content or run analytics.
 
 ## About
 
