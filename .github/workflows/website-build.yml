@@ -1,0 +1,39 @@
+name: Build websites
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: websites-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Lint and render German and English sites
+        env:
+          MDU_IMAGE: capjan/mdu@sha256:6a92141774c4d5a74d3066d6a68c77ee99820910895582ea2acb6d4f61badd30
+        run: |
+          set -eu
+          docker run --rm --platform linux/amd64 --volume "$PWD:/work" --workdir /work --user "$(id -u):$(id -g)" "$MDU_IMAGE" lint ./de
+          docker run --rm --platform linux/amd64 --volume "$PWD:/work" --workdir /work --user "$(id -u):$(id -g)" "$MDU_IMAGE" lint ./en
+          docker run --rm --platform linux/amd64 --volume "$PWD:/work" --workdir /work --user "$(id -u):$(id -g)" "$MDU_IMAGE" render ./de ./build/de
+          docker run --rm --platform linux/amd64 --volume "$PWD:/work" --workdir /work --user "$(id -u):$(id -g)" "$MDU_IMAGE" render ./en ./build/en
+          test -s build/de/index.html
+          test -s build/en/index.html
+
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: websites-${{ github.sha }}
+          path: build/
+          if-no-files-found: error
+          retention-days: 7
