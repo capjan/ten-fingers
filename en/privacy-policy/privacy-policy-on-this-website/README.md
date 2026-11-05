@@ -12,19 +12,21 @@ navigation:
 
 Our website address is: https://en.tenfingers.app.
 
-## Cookies
+## Browser storage and cookies
 
-We do not set cookies for visitors to our website.
+This website does not set cookies. MDU stores display and navigation preferences such as the color theme, navigation panel widths, and collapsed states in the browser's local storage (`localStorage`). Temporary states for expanded menus are kept in session storage (`sessionStorage`) for the current browser session. These values are not sent to me and can be deleted through your browser's site data settings.
 
-## Embedded content from other websites
+## Technical processing
 
-Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.
+When you visit this site, the server processes your IP address and the requested URL to deliver the page. The site has no user accounts or contact forms and uses no analytics or tracking services. Routine page requests are not stored in access logs.
 
-These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
+## Links to other websites
 
-## Who we share your data with and how long we retain your data
+This site contains links to other websites. A connection to the linked website is made only after you follow a link. The provider's privacy information then applies.
 
-We do not collect any personal data. Therefore, there is nothing to share or store.
+## Sharing and retention
+
+The display and navigation preferences stored in your browser are not sent to me. I do not create user profiles or use analytics or tracking services.
 
 ## Contact information
 
@@ -32,4 +34,4 @@ If you have any questions or concerns about our privacy practices, please contac
 
 ## Changes to this privacy policy
 
-This Privacy Policy may be updated from time to time to reflect changes to our privacy practices. The current version can be found at https://en.tenfingers.app/privacy-policy-on-this-website.
+This Privacy Policy may be updated to reflect changes to the website. The current version can be found at https://en.tenfingers.app/privacy-policy/privacy-policy-on-this-website.

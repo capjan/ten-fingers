@@ -30,4 +30,4 @@ Wenn Sie Fragen oder Bedenken bezüglich unserer Datenschutzpraktiken haben, err
 
 ## Änderungen an dieser Datenschutzerklärung
 
-Diese Datenschutzerklärung kann gelegentlich aktualisiert werden, um Änderungen unserer Datenschutzpraktiken widerzuspiegeln. Die aktuelle Version finden sie unter www.tenfingers.app/datenschutz-macOS
+Diese Datenschutzerklärung kann gelegentlich aktualisiert werden, um Änderungen unserer Datenschutzpraktiken widerzuspiegeln. Die aktuelle Version finden Sie unter https://www.tenfingers.app/datenschutz-macos.
