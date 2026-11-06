@@ -14,8 +14,8 @@ navigation:
 ### Responsible for the content
 
 Jan Ruhländer<br>
-An der Brandsbek 1<br>
-24242 Felde<br>
+Antipper 8<br>
+24143 Kiel<br>
 Germany
 
 ### Contact
