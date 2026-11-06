@@ -1,54 +1,62 @@
 ---
 title: Features – Ten Typing Fingers
-description: Learn about the usability, native macOS design, privacy, and other features of Ten Typing Fingers.
+description: Explore lessons, keyboard hints, and training statistics in Ten Typing Fingers for macOS.
 navigation:
   title: Features
   order: 10
   placement: top
 ---
 
-# Features
+# From your first keystroke to confident typing
 
-## Great Usability
+Ten Typing Fingers combines focused practice with visual guidance and clear results. Know what to work on before, during, and after each session.
 
-Ten Fingers works seamlessly with the keyboard, allowing you to keep your hands on it even between training sessions. At the same time, mouse and trackpad controls are fully supported. I’ve focused on ensuring both input methods work together effortlessly, enabling smooth navigation no matter your preferences. Whether you use the keyboard exclusively, switch between the mouse and keyboard, or use both at once, the app adapts to your needs – not the other way around!
+## 1. Choose a lesson
 
-![Finger zones on a keyboard](../assets/usability.png)
+Start with the home row and expand your practice one step at a time. Each lesson card shows the keys it covers and your training progress, so you can find an exercise that fits your next goal.
 
-## Native
+![Lesson selection showing exercises, keyboard coverage, and personal progress](../assets/lesson-selection-light.png#only-light)
+![Lesson selection showing exercises, keyboard coverage, and personal progress](../assets/lesson-selection-dark.png#only-dark)
 
-Ten Fingers is a native macOS app. It is crafted entirely from hand-written and optimized Swift code, utilizing the SwiftUI and AppKit frameworks. This ensures optimal performance, a small file size, and seamless integration into the macOS ecosystem.
+Want to practise your own text? Create a lesson with content that matters to you.
 
-![Swift](../assets/swift.png)
+## 2. Practise with guidance
 
-## App Store + Sandbox
+Focus on the practice text. The virtual keyboard helps you find the next key and the finger to use.
 
-Ten Fingers is distributed through the App Store and runs in a secure sandbox, protecting your data and preventing unauthorized access. Apple reviews every version before its release through an App Review process. This includes security checks, compliance with Apple guidelines, and code signing verification.
+![Typing practice with exercise text, the next key highlighted, and coloured finger zones](../assets/typing-training-light.png#only-light)
+![Typing practice with exercise text, the next key highlighted, and coloured finger zones](../assets/typing-training-dark.png#only-dark)
 
-![App Store distribution](../assets/sandbox.png)
+- **Next key:** See which key to press on the virtual keyboard.
+- **Finger zones:** Use coloured areas to learn finger placement, either always visible or only for the current zone.
+- **Home row:** Display hints for your fingers’ starting positions.
+- **Your preferences:** Turn hints on or off in the lesson menu as your confidence grows.
 
-This means you benefit from easy installation, automatic updates, and a seamless experience – safe and convenient, just as it should be.
+## 3. Understand your results
 
-Here are the Xcode settings for the App Sandbox:
+After each completed exercise, review your speed, accuracy, errors, and score. The keyboard error distribution helps you spot difficult keys, while the timeline shows how your performance changed during the session.
 
-![Xcode Sandbox Settings showing minimal permissions](../assets/xcode-sandbox.avif)
+![Training results showing speed, accuracy, error distribution, and the session timeline](../assets/training-results-light.png#only-light)
+![Training results showing speed, accuracy, error distribution, and the session timeline](../assets/training-results-dark.png#only-dark)
 
-As you can see, Ten Fingers is implemented with the minimal permissions possible.
+Repeat the lesson to work on those keys, or return to the overview to choose your next exercise.
 
-## Maximum Privacy
+## Stay comfortable and focused
 
-![Privacy](../assets/privacy.png)
+**Navigate with the keyboard.** Use the arrow keys, Tab, Return, and Escape to move through the app between exercises. Mouse and trackpad controls are available too.
 
-I have no interest in spying on you or anyone else. Your training data is stored locally, and no data is transferred to other devices. To ensure this, I’ve deliberately restricted permissions within the sandbox, so you can trust that no data is sent externally or fetched from outside sources.
+**Make yourself comfortable.** Choose a light or dark appearance and adjust text size in the View menu.
 
-The following is listed in the App Store under the App Privacy section.
+**Practise locally, without ads.** Ten Typing Fingers is a native macOS app. Your training data stays on your Mac, with no account to create. [Read about app privacy](../privacy-policy/privacy-policy-in-the-macos-app-ten-typing-fingers/README.md).
 
-![App Store privacy information](../assets/app-store-privacy.png)
+## Start your next practice session
 
-And I am committed to ensuring it stays that way.
+For macOS 14 or later. Installation and updates are handled by the Mac App Store.
 
-## No Ads
+[![Download on the Mac App Store](../assets/app-store-badge.svg)](https://apps.apple.com/us/app/ten-typing-fingers/id6483865396)
 
-![No ads](../assets/no-ads.png)
+[Have a question? Get support.](../support/README.md)
 
-This project is meant to be fun! For me (as the developer) and, most importantly, for you! That’s why Ten Fingers is completely ad-free.
+---
+
+[Contact & imprint](../contact/README.md) · [Website privacy](../privacy-policy/privacy-policy-on-this-website/README.md) · [App privacy](../privacy-policy/privacy-policy-in-the-macos-app-ten-typing-fingers/README.md) · [Deutsch](https://www.tenfingers.app/)

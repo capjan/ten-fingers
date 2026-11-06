@@ -2,30 +2,27 @@
 title: Story – Ten Typing Fingers
 description: The story behind the development of Ten Typing Fingers.
 navigation:
-  title: Story
-  order: 40
+  title: About
+  order: 30
+  placement: top
 ---
 
-# Story
+# A typing trainer built with care
 
-In the world of software development, there are often fascinating stories about the creation of apps and websites. One such story is that of Ten Typing Fingers, a macOS app created by one individual out of passion and dedication to detail. Here we take an exclusive look behind the scenes and learn more about the creative spirit behind this project.
+I’m Jan, the developer of Ten Typing Fingers. The app began with a simple wish: to practise touch typing on the Mac in a clear, native app.
 
-## A hobby that became a passion
+## What matters to me
 
-Jan, an avid Mac user and software enthusiast with a passion for programming, discovered early on his interest in developing applications that can improve the lives of users. This passion inspired him to start his own hobby project – the development of a macOS app called Ten Typing Fingers.
+Practice should keep your attention on the text. Keyboard hints support you as you learn, and the results help you decide what to work on next. You should also be able to navigate between exercises using the keyboard.
 
-## The Idea behind
+Ten Typing Fingers is an independently developed project. I handle design, development, and support. The app has no advertising and stores training data locally on your Mac.
 
-The idea for Ten Fingers arose from Jan’s personal need for a native macOS app that could turn learning and practicing touch typing into an enjoyable experience. As a passionate writer and note-taker, he understood the advantages of being able to type freely without having to look at the keyboard. The thought that others could also enjoy these benefits through his app was highly motivating and fulfilling for him. With this goal in mind, he began developing Ten Typing Fingers.
+## Help shape the app
 
-## The Path to Realization
+I continue to develop Ten Typing Fingers. If something is missing or you run into a problem, I’d like to hear about it. Specific feedback helps me improve the app.
 
-As a lone wolf, Jan embarked on the development of the Ten Typing Fingers app from scratch. From planning and design to implementation and refinement, he poured countless hours of his spare time into this project. Every aspect of the app was carefully considered and lovingly crafted to ensure a seamless user experience.
+[Share feedback or get support →](../support/README.md)
 
-## The Role of the Website
+---
 
-In addition to the app, Jan also created a companion website for Ten Typing Fingers. The website serves as a platform for showcasing the app and provides users with a central hub for information, support, and updates. Designed with meticulous attention to detail, the website reflects the aesthetics and user-friendliness of the Ten Typing Fingers app.
-
-## The Future
-
-While Ten Typing Fingers is currently a hobby project, Jan has big plans for the future. He aims to continuously enhance and expand the app to make it even more useful and appealing to users. Furthermore, he is considering expanding the app to other platforms to make it accessible to a wider audience.
+[Contact & imprint](../contact/README.md) · [Website privacy](../privacy-policy/privacy-policy-on-this-website/README.md) · [App privacy](../privacy-policy/privacy-policy-in-the-macos-app-ten-typing-fingers/README.md) · [Deutsch](https://www.tenfingers.app/)

@@ -4,7 +4,7 @@ site:
   favicon: assets/app-icon.png
   colors:
     light:
-      primary: "#0a84ff"
+      primary: "#0066cc"
     dark:
       primary: "#0a84ff"
   attribution:

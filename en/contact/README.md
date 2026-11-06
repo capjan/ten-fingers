@@ -3,7 +3,8 @@ title: Contact – Ten Typing Fingers
 description: Imprint and contact information for Ten Typing Fingers.
 navigation:
   title: Contact
-  order: 50
+  order: 40
+  placement: top
 ---
 
 # Contact
@@ -32,3 +33,7 @@ The content and artworks on this website are subject to copyright law. Duplicati
 ### Data protection
 
 [Privacy policy](../privacy-policy/README.md)
+
+---
+
+[Contact & imprint](README.md) · [Website privacy](../privacy-policy/privacy-policy-on-this-website/README.md) · [App privacy](../privacy-policy/privacy-policy-in-the-macos-app-ten-typing-fingers/README.md) · [Deutsch](https://www.tenfingers.app/)

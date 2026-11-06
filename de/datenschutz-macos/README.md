@@ -2,6 +2,7 @@
 title: Datenschutz in der macOS-App Ten Fingers – Ten Fingers
 description: Datenschutzerklärung für die macOS-App Ten Fingers.
 navigation:
+  visible: false
   title: Datenschutz macOS-App
   order: 60
 ---
@@ -22,12 +23,16 @@ Die App Ten Fingers verwendet keine Tracking-Technologien zur Erfassung von Nutz
 
 ## Datenweitergabe an Dritte
 
-Da ich keine personenbezogenen Daten erfasse, gibt es nichts, das weitergegeben werden könnte. Damit ist absolute Sicherheit gewährleistet.
+Da ich keine personenbezogenen Daten erfasse, gibt es nichts, das weitergegeben werden könnte.
 
 ## Kontakt
 
-Wenn Sie Fragen oder Bedenken bezüglich unserer Datenschutzpraktiken haben, erreichen Sie mich unter [privacy@tenfingers.app](mailto:privacy@tenfingers.app).
+Wenn du Fragen zum Datenschutz hast, erreichst du mich unter [privacy@tenfingers.app](mailto:privacy@tenfingers.app).
 
 ## Änderungen an dieser Datenschutzerklärung
 
-Diese Datenschutzerklärung kann gelegentlich aktualisiert werden, um Änderungen unserer Datenschutzpraktiken widerzuspiegeln. Die aktuelle Version finden Sie unter https://www.tenfingers.app/datenschutz-macos.
+Diese Datenschutzerklärung kann gelegentlich aktualisiert werden, um Änderungen unserer Datenschutzpraktiken widerzuspiegeln. Die aktuelle Version findest du auf dieser Seite.
+
+---
+
+[Impressum](../kontakt/README.md) · [Datenschutz Website](../datenschutzerklaerung/README.md) · [Datenschutz App](README.md) · [English](https://en.tenfingers.app/)

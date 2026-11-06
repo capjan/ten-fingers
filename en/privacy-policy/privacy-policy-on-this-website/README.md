@@ -2,6 +2,7 @@
 title: Privacy Policy on this Website – Ten Typing Fingers
 description: Privacy information about the Ten Typing Fingers website.
 navigation:
+  visible: false
   title: Privacy Policy for this Website
   order: 10
 ---
@@ -34,4 +35,8 @@ If you have any questions or concerns about our privacy practices, please contac
 
 ## Changes to this privacy policy
 
-This Privacy Policy may be updated to reflect changes to the website. The current version can be found at https://en.tenfingers.app/privacy-policy/privacy-policy-on-this-website.
+This Privacy Policy may be updated to reflect changes to the website. The current version is available on this page.
+
+---
+
+[Contact & imprint](../../contact/README.md) · [Website privacy](README.md) · [App privacy](../privacy-policy-in-the-macos-app-ten-typing-fingers/README.md) · [Deutsch](https://www.tenfingers.app/)

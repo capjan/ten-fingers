@@ -4,6 +4,7 @@ description: Impressum und Kontaktinformationen für Ten Fingers.
 navigation:
   title: Kontakt
   order: 40
+  placement: top
 ---
 
 # Kontakt
@@ -31,3 +32,7 @@ Die Inhalte und Werke auf dieser Webseite unterliegen dem deutschen Urheberrecht
 ### Datenschutz
 
 [Datenschutzerklärung](../datenschutzerklaerung/README.md)
+
+---
+
+[Impressum](README.md) · [Datenschutz Website](../datenschutzerklaerung/README.md) · [Datenschutz App](../datenschutz-macos/README.md) · [English](https://en.tenfingers.app/)

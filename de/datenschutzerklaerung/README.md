@@ -2,6 +2,7 @@
 title: Datenschutz auf dieser Webseite – Ten Fingers
 description: Datenschutzhinweise für die Ten-Fingers-Webseite.
 navigation:
+  visible: false
   title: Datenschutz Webseite
   order: 50
 ---
@@ -30,8 +31,12 @@ Die Website sendet die im Browser gespeicherten Anzeige- und Navigationsoptionen
 
 ## Kontakt
 
-Wenn Sie Fragen oder Bedenken bezüglich meiner Datenschutzpraktiken haben, erreichen Sie mich unter [privacy@tenfingers.app](mailto:privacy@tenfingers.app).
+Wenn du Fragen zum Datenschutz hast, erreichst du mich unter [privacy@tenfingers.app](mailto:privacy@tenfingers.app).
 
 ## Änderungen an dieser Datenschutzerklärung
 
-Diese Datenschutzerklärung kann gelegentlich aktualisiert werden, um Änderungen der Website widerzuspiegeln. Die aktuelle Version findest du unter https://www.tenfingers.app/datenschutzerklaerung.
+Diese Datenschutzerklärung kann gelegentlich aktualisiert werden, um Änderungen der Website widerzuspiegeln. Die aktuelle Version findest du auf dieser Seite.
+
+---
+
+[Impressum](../kontakt/README.md) · [Datenschutz Website](README.md) · [Datenschutz App](../datenschutz-macos/README.md) · [English](https://en.tenfingers.app/)
