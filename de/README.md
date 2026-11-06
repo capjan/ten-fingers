@@ -15,8 +15,8 @@ Mit **Ten Fingers für Mac** lernst du das 10-Finger-Schreiben und übst gezielt
 
 Für macOS 14 oder neuer · Ohne Werbung · Trainingsdaten bleiben auf deinem Mac
 
-![Ten Fingers: Ausschnitt der Lektionsübersicht mit Tastaturvorschau und Trainingsfortschritt](assets/home-light.png#only-light)
-![Ten Fingers: Ausschnitt der Lektionsübersicht mit Tastaturvorschau und Trainingsfortschritt](assets/home-dark.png#only-dark)
+![Ten Fingers: Lektionsübersicht mit Tastaturvorschau und Trainingsfortschritt](assets/lesson-selection-light.png#only-light)
+![Ten Fingers: Lektionsübersicht mit Tastaturvorschau und Trainingsfortschritt](assets/lesson-selection-dark.png#only-dark)
 
 ## Eine klare Richtung für dein Training
 

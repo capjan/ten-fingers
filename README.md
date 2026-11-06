@@ -23,7 +23,7 @@ dotnet mdu render ./en ./build/en
 
 Preview the rendered sites with `python3 -m http.server 8765 --directory build`, then open `http://localhost:8765/de/` or `http://localhost:8765/en/`.
 
-Screenshots are captured from the current macOS app in German and English. Each scene has matching `-light.png` and `-dark.png` files. Keep paired Markdown images adjacent with identical alternative text and the MDU `#only-light` / `#only-dark` URL markers. Verify both explicit themes and automatic appearance, including the image lightbox, after replacing screenshots. Use real app captures; do not recolour dark screenshots to simulate light mode.
+Screenshots are captured from the current macOS app in German and English. Use the complete native macOS window at 1200 × 900 pixels for every scene, including its title bar and window controls. Capture PNGs with transparent corners and no drop shadow (`screencapture -x -o -a -l WINDOW_ID`); do not crop or resize individual scenes. Each scene has matching `-light.png` and `-dark.png` files. Keep paired Markdown images adjacent with identical alternative text and the MDU `#only-light` / `#only-dark` URL markers. Verify both explicit themes and automatic appearance, including the image lightbox, after replacing screenshots. Use real app captures; do not recolour dark screenshots to simulate light mode.
 
 Pull requests render both sites for review. A push to `main` also deploys the build through the GitHub Actions `production` environment. The workflow uploads a release over SSH with a dedicated account that has no Docker or `sudo` access, then atomically switches the active release. The server configuration is in `deploy/`; Nginx serves the two roots read-only behind Traefik.
 
