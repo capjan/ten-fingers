@@ -5,28 +5,51 @@ navigation:
   title: Start
   order: 0
   placement: top
+page:
+  toc: false
+  breadcrumbs: false
+  pagination: false
 ---
 
-# Sicher tippen. Schritt für Schritt.
+# Dein Tipptraining im Überblick
 
-Mit **Ten Fingers für Mac** lernst du das 10-Finger-Schreiben und übst gezielt weiter. Wähle eine Lektion, orientiere dich an den farbigen Tastaturhilfen und verfolge deine Fortschritte nach jedem Training.
-
-[![Laden im Mac App Store](assets/app-store-badge.svg)](https://apps.apple.com/de/app/ten-fingers/id6476569115?mt=12)
+```hero
+title: 10-Finger-Schreiben lernen
+text: Übe auf deinem Mac mit geführten Lektionen, farbigen Tastaturhilfen und Statistiken zu deinem Fortschritt.
+effect: flow
+width: full
+align: center
+height: 350
+speed: 0
+colors:
+  accent: "#4b8fff"
+actions:
+  - text: Im Mac App Store laden
+    link: https://apps.apple.com/de/app/ten-fingers/id6476569115?mt=12
+```
 
 Für macOS 14 oder neuer · Ohne Werbung · Trainingsdaten bleiben auf deinem Mac
 
-![Ten Fingers: Lektionsübersicht mit Tastaturvorschau und Trainingsfortschritt](assets/lesson-selection-light.png#only-light)
-![Ten Fingers: Lektionsübersicht mit Tastaturvorschau und Trainingsfortschritt](assets/lesson-selection-dark.png#only-dark)
+<div class="image-gallery">
 
-## Eine klare Richtung für dein Training
+^^^
+![Lektionsübersicht mit Tastaturvorschauen und bisherigen Trainingsergebnissen](assets/lesson-selection-light.png#only-light){.image-frame .image-zoom-on width="960"}
+![Lektionsübersicht mit Tastaturvorschauen und bisherigen Trainingsergebnissen](assets/lesson-selection-dark.png#only-dark){.image-frame .image-zoom-on width="960"}
+^^^ Wähle eine Lektion. Die Tastaturvorschau zeigt dir, welche Tasten du darin übst.
 
-**Mit passenden Lektionen beginnen.** Übe von der Grundstellung aus neue Tasten und Zeichenkombinationen. Die Übersicht zeigt dir, welche Bereiche eine Lektion trainiert.
+^^^
+![Tippübung mit Übungstext, hervorgehobener Taste und farbigen Fingerzonen](assets/typing-training-light.png#only-light){.image-frame .image-zoom-on width="960"}
+![Tippübung mit Übungstext, hervorgehobener Taste und farbigen Fingerzonen](assets/typing-training-dark.png#only-dark){.image-frame .image-zoom-on width="960"}
+^^^ Die virtuelle Tastatur zeigt dir die nächste Taste und den passenden Finger.
 
-**Die richtigen Finger finden.** Die virtuelle Tastatur zeigt dir die nächste Taste. Farbige Fingerzonen und Hilfen für die Grundstellung unterstützen dich beim Einprägen der Bewegungen.
+^^^
+![Trainingsstatistik mit Tempo, Genauigkeit, Fehlerverteilung und Verlauf](assets/training-results-light.png#only-light){.image-frame .image-zoom-on width="960"}
+![Trainingsstatistik mit Tempo, Genauigkeit, Fehlerverteilung und Verlauf](assets/training-results-dark.png#only-dark){.image-frame .image-zoom-on width="960"}
+^^^ Sieh nach der Übung, wie schnell und genau du getippt hast und welche Tasten du weiter üben kannst.
 
-**Fortschritte erkennen.** Sieh nach jeder Übung, wie schnell und genau du getippt hast und welche Tasten noch Aufmerksamkeit brauchen.
+</div>
 
-[Training und Funktionen entdecken →](features/README.md)
+[Alle Funktionen entdecken](features/README.md)
 
 ## Für deinen Mac gemacht
 

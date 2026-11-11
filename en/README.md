@@ -5,28 +5,51 @@ navigation:
   title: Home
   order: 0
   placement: top
+page:
+  toc: false
+  breadcrumbs: false
+  pagination: false
 ---
 
-# Type with confidence. One lesson at a time.
+# See your typing practice
 
-**Ten Typing Fingers for Mac** helps you learn touch typing and build on what you know. Pick a lesson, follow the colour-coded keyboard hints, and review your progress after each practice session.
-
-[![Download on the Mac App Store](assets/app-store-badge.svg)](https://apps.apple.com/us/app/ten-typing-fingers/id6483865396)
+```hero
+title: Learn touch typing on your Mac
+text: Build confidence at the keyboard with guided lessons, colour-coded hints, and progress statistics.
+effect: flow
+width: full
+align: center
+height: 350
+speed: 0
+colors:
+  accent: "#4b8fff"
+actions:
+  - text: Download on the Mac App Store
+    link: https://apps.apple.com/us/app/ten-typing-fingers/id6483865396
+```
 
 For macOS 14 or later · No ads · Training data stays on your Mac
 
-![Ten Typing Fingers: lesson selection with keyboard previews and training progress](assets/lesson-selection-light.png#only-light)
-![Ten Typing Fingers: lesson selection with keyboard previews and training progress](assets/lesson-selection-dark.png#only-dark)
+<div class="image-gallery">
 
-## Give your practice a clear direction
+^^^
+![Lesson selection with keyboard previews and previous training results](assets/lesson-selection-light.png#only-light){.image-frame .image-zoom-on width="960"}
+![Lesson selection with keyboard previews and previous training results](assets/lesson-selection-dark.png#only-dark){.image-frame .image-zoom-on width="960"}
+^^^ Choose a lesson. Its keyboard preview shows you which keys you will practise.
 
-**Start with the right lesson.** Work from the home row towards new keys and character combinations. Keyboard previews show you what each lesson covers.
+^^^
+![Typing exercise with practice text, a highlighted key, and coloured finger zones](assets/typing-training-light.png#only-light){.image-frame .image-zoom-on width="960"}
+![Typing exercise with practice text, a highlighted key, and coloured finger zones](assets/typing-training-dark.png#only-dark){.image-frame .image-zoom-on width="960"}
+^^^ Follow the virtual keyboard to find the next key and the finger to use.
 
-**Find the right fingers.** The virtual keyboard highlights the next key. Coloured finger zones and home-row hints help you learn the movements.
+^^^
+![Training statistics with speed, accuracy, error distribution, and a timeline](assets/training-results-light.png#only-light){.image-frame .image-zoom-on width="960"}
+![Training statistics with speed, accuracy, error distribution, and a timeline](assets/training-results-dark.png#only-dark){.image-frame .image-zoom-on width="960"}
+^^^ Review your speed and accuracy, and see which keys need more practice.
 
-**See your progress.** After each session, review your typing speed, accuracy, and the keys that need more practice.
+</div>
 
-[Explore the training and features →](features/README.md)
+[Explore all features](features/README.md)
 
 ## Made for your Mac
 

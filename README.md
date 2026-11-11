@@ -11,7 +11,7 @@ Official public home for Ten Fingers, its German and English websites, and commu
 
 ## Website projects
 
-The German and English sites are maintained as separate MDU roots in `de/` and `en/`. Each has its own navigation, site name, and assets so it can be rendered and deployed to its own domain. MDU 6.2.0 is pinned in `.config/dotnet-tools.json`; the build workflow pins the matching Docker image by digest. Update both together.
+The German and English sites are maintained as separate MDU roots in `de/` and `en/`. Each has its own navigation, site name, and assets so it can be rendered and deployed to its own domain. MDU 6.6.0 is pinned in `.config/dotnet-tools.json`; the build workflow pins the matching Docker image by digest. Update both together.
 
 ```sh
 dotnet tool restore

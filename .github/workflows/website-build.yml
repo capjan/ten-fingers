@@ -21,7 +21,7 @@ jobs:
 
       - name: Lint and render German and English sites
         env:
-          MDU_IMAGE: capjan/mdu:6.2.0@sha256:1497eb0ffa216136e347872b6fc4dcd14730bb6b11df9818103c125a8bf6cab9
+          MDU_IMAGE: capjan/mdu:6.6.0@sha256:51f887e637076983281fc7fbd60a6a53c22c42cb4c485d6330367113938b23d2
         run: |
           set -eu
           docker run --rm --platform linux/amd64 --volume "$PWD:/work" --workdir /work --user "$(id -u):$(id -g)" "$MDU_IMAGE" lint ./de
